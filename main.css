@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'LP';
+    src: url('./fonts/LinkinPark.ttf') format('truetype');
+}
+
+.navbar {
+    background-color: #000;
+}
+
+#nav-header .nav .nav-link.active {
+    background-color: #fff;
+    color: #3f5de6;
+}
+
+#nav-header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-order .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'LP';
+    font-size: 32px;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.text-decoration-none {
+    color: #fff;
+}
+
+.carousel-inner img {
+    max-height: 768px;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.section-title {
+    font-family: 'LP';
+}
+
+#home,
+#order {
+    background-color: #dfdfdf;
+}
+
+#order {
+    min-height: 820px;
+}
+
+.text-colored {
+    color: #3f5de6;
+}
+
+.nav-order .nav-link.active,
+#subscrive button {
+    background-color: #3f5de6;
+    color: #fff;
+}
+
+.nav-order .nav-link:hover {
+    color: #3f5de6
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.form-check-label {
+    font-size: 10px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
